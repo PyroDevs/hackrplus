@@ -1,0 +1,10 @@
+<h1 class="post_title">{{ post.title }}</h1>
+<p>{{ post.body }}</p>
+<h3>By {{ post.poster }}</h3>
+
+<h1>Comments</h1>
+<button ng-click="createComment()">Create comment</button>
+<div class="comment" ng-repeat="comment in comments">
+  <h3>{{ comment.comment }}</h3>
+  <p>by {{ comment.poster }}</p>
+</div>

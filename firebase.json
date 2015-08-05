@@ -1,0 +1,9 @@
+{
+  "firebase": "hackrplus",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="hackrplus">
+  <head>
+    <meta charset="UTF-8">
+    <title>HackrPlus</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Advent+Pro" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="vendor/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="styles.min.css" /> 
+  </head>
+  <body>
+    <aside class="left_aside">
+      <nav class="main_nav"><!-- main_nav -->
+        <ul class="links">
+          <a href="/#/topic">
+            <li>Home</li>
+          </a>
+          <a href="/#/topic">
+            <li>All topics</li>
+          </a>
+          <a href="/#/posts">
+            <li>All posts</li>
+          </a>
+          <a href="/#/topic/create">
+            <li>Create Topic</li>
+          </a>
+        </ul><!-- .links -->
+      </nav><!-- .main_nav -->
+    </aside><!-- .left_aside - -->
+    <div class="container">
+      <header class="ui header page_head"><!-- header -->
+        <div class="logo">
+          <i class="circular green users icon"></i>
+          <h2>Hackr+</h2>
+        </div>
+        <h3 class="ui center aligned header">
+          <span class="sub_header">A service similar to Reddit, HackerNews, and Google+
+          </span>
+        </h3>
+      </header><!-- end header -->
+      <user-bar></user-bar>
+
+      <footer>
+        
+      </footer>
+    </div><!-- .container - -->
+    <div class="content_wrap">
+      <section class="content" ng-view>
+        <!-- this part will be erased - -->
+      </section><!-- .content - -->
+    </div><!-- .content_wrap - -->
+  </body>
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="vendor/firebase/firebase.js"></script>
+  <script src="vendor/angular-route/angular-route.min.js"></script>
+  <script src="vendor/angularfire/dist/angularfire.min.js"></script>
+  <script src="scripts.min.js"></script>
+  <script src="vendor/semantic/dist/semantic.min.js"></script>
+</html>

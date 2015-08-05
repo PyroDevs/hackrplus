@@ -1,0 +1,14 @@
+<button ng-click="createTopic()">Create topic</button>
+<hr />
+<header class="topic_intro">
+  List of all Topics
+</header>
+<div class="topics">
+  <div class="topic" ng-repeat="topic in topics">
+    <a ng-href="#/topic/{{ topic.$id }}"> Go to topic page</a>
+    <h1>{{ topic.name }}</h1>
+    <p>{{ topic.description }}</p>
+    <h3>{{ topic.poster }} created this topic</h3>
+    <a ng-href="#/topic/{{ topic.$id }}"> Go to topic page</a>
+  </div>
+</div>

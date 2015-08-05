@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  background-color: #6A98D2;
+}
+
+.container {
+  padding-top: 25px;
+}
+
+header { 
+  padding-top: 25px;
+}
+
+header h1 {
+  color: #FFFFFF;
+}
+
+h1 {
+  color:#000;
+}
+
+.logo h2 {
+  color: #19B5FE;
+  letter-spacing: .3em;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.sub_header {
+  color: #ddd;
+  letter-spacing: .2em;
+}
+
+.left_aside { 
+  position: fixed;
+  top: 25px;
+  left: 5px;
+  z-index: 10000;
+}
+.left_aside li { 
+  color: #3AC0FF;
+  list-style: none;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.left_aside a:hover {
+  text-decoration: underline;
+} 
+.content_wrap {
+  background-color: #ecf0f1;
+  width: 50%;
+  margin: 20px auto 0 auto;
+  border-radius: 15px;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+}
+user-bar {
+  position: fixed;
+    top: 5px;
+  right: 5px;
+  z-index: 1000;
+}
+user-bar h1 {
+  font-size: 14px;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #333;
+}
+
+.form_wrap {
+  width: 550px;
+  margin: 0 auto;
+  outline: 1px solid #fff;
+}
+
+tr {
+  height: 38px;
+}
+td.submit {
+  text-align: right;
+}
+
+td.form_label {
+  text-align: right;
+}
+
+.topic_crate_wrap {
+  outline: 1px solid #fff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-bottom: 45px;
+}
+
+.topic_create_output {
+  outline: 1px solid #fff;
+  width: 525px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.topic_intro {
+  color: #19B5FE;
+  margin-bottom: 45px;
+  font-size: 32px;
+}
+
+.topic {
+  width: 500px;
+  margin: 0 auto;
+  outline: 1px solid #aaa;
+  padding: 25px;
+  margin-bottom: 35px;
+}
+
+.topic h1 {
+  color: #19B5FE;
+}
+
+.topic p {
+  color: #bbb;
+}
+
+.topic h3 { 
+  color: #222;
+}
+
+.button {
+  padding: 10px;
+  border: 1px solid #aaa;
+  min-width: 100px;
+}
+button {
+  border: 3px solid transparent;
+  transition: all 0.9s ease-in-out;
+}
+button:hover {
+  border: 3px solid #54c8ff;
+  color: #FFF;
+  background-color: #54c8ff;
+}
+
+
+.posts {
+  width: 600px;
+  margin: 0 auto;
+  
+}
+
+.post_title { 
+  color: #3AC0FF;
+}
+
+.post { 
+  outline: 1px solid #ddd;
+  border-bottom: 2px solid #777;
+  width: 550px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 20px;
+  
+}
+
+.post h1 { 
+  text-align: left;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  margin: 0 auto;
+  width: 250px;
+  outline: 1px solid #eee;
+  color: #002b36;
+}

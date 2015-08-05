@@ -1,0 +1,24 @@
+<h1>Create topic</h1>
+<div class="form-wrap">
+  <form ng-submit="submit()">
+    <table class="topic_crate_wrap">
+      <tr>
+        <td class="form_label">Topic Name</td>
+        <td><input type="text" ng-model="name" placeholder="Name" required /></td>
+      </tr>
+      <tr>
+        <td class="form_label">Topic Description</td>
+        <td><textarea ng-model="description" placeholder="Description" required></textarea></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td class="submit"><input type="submit" value="Create This Topic" /></td>
+      </tr>
+    </table>
+    <div class="topic_create_output">
+      <h1>{{ name }}</h1>
+      <p>{{ description }}</p>
+      <h3>topic created by {{ author }}</h3>
+    </div><!-- .topic_create_output - -->
+  </form>
+</div><!-- .form_wrap - -->
